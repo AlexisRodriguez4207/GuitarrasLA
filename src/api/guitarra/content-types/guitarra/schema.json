@@ -16,9 +16,6 @@
       "type": "string",
       "required": true
     },
-    "descripcion": {
-      "type": "blocks"
-    },
     "precio": {
       "type": "integer"
     },
@@ -33,6 +30,9 @@
     "url": {
       "type": "uid",
       "targetField": "nombre"
+    },
+    "descripcion": {
+      "type": "richtext"
     }
   }
 }

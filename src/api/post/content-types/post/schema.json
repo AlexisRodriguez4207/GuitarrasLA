@@ -16,9 +16,6 @@
       "type": "string",
       "required": true
     },
-    "contenido": {
-      "type": "blocks"
-    },
     "imagen": {
       "type": "media",
       "multiple": false,
@@ -33,6 +30,9 @@
     "url": {
       "type": "uid",
       "targetField": "titulo"
+    },
+    "contenido": {
+      "type": "richtext"
     }
   }
 }
